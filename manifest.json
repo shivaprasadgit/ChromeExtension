@@ -1,0 +1,14 @@
+{
+    "name": "video",
+    "version": "1",
+    "browser_action":
+    {
+      "default_icon": "icon16.png"
+    },
+    "background":
+    {
+        "scripts": ["background.js"]
+    },
+    "permissions": ["tabs"],
+    "manifest_version": 2
+  }
